@@ -1,0 +1,114 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: url('fondo.jpeg');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .contenedor{
+    position: relative;
+    width: 400px;
+    border: 2px solid #e0f7ef;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    height: 450px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor .form .form-header .form-title{
+    font-weight: normal;
+    font-family: 'sans-serif'; 
+    color: #000000;
+    text-align: center;
+  }
+  
+
+  .contenedor .form {
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px  35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    margin-right: 30px;
+  }
+
+  .contenedor .form .form-label{
+    display: block;
+    color: rgb(250, 244, 244);
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+  }
+  
+  .contenedor .form .form-input, .form-textarea{
+    background-color: #A1E5AB;
+    border: #A1E5AB;
+    outline: none;
+    border-bottom: 2px solid #63a86e;
+    width: 100%;
+    padding:12px;
+    margin-bottom: 20px; 
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .contenedor .form .form-textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;  
+  }
+  
+  .contenedor .form .btn-submit{
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    outline: none;
+    border: none;
+    color: black;
+    padding: 15px 0px;
+    cursor: pointer;
+    transition: all .5s ease;
+    background-color: #688d6e;
+  }
+  .contenedor .form .btn-submit:hover{
+    background: #6e9e8f;
+    
+  }
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
